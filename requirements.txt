@@ -1,0 +1,13 @@
+# core runtime
+pandas
+pdfplumber
+
+# testing / dev
+pytest
+
+# optional (only if you plan to add LLM codegen later)
+openai
+anthropic
+langchain
+groq
+requests
