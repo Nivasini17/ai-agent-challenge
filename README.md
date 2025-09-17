@@ -18,29 +18,32 @@ This project contains an autonomous Python agent designed to generate a custom p
 
 - Python 3.7+ installed
 
-Install required Python packages:
+### Installation
 
-Set Groq API key environment variable:
+- Install required Python packages:
+pip install -r requirements.txt
 
-For Linux/macOS:
+## Set Groq API key environment variable:
+
+- For Linux/macOS:
 
 export GROQ_API_KEY="your_api_key_here"
 
-Running the Agent
+## Running the Agent
 
 Clone this repository and run the agent for ICICI bank:
-python agent.py --target icici
+- python agent.py --target icici
 
-The agent will:
+## The agent will:
 
-⦁	Load sample files from data/icici/
-⦁	Generate and test parser code up to 3 attempts
-⦁	Write the parser code to custom_parsers/icici_parser.py
-⦁	Use a fallback parser if needed
+- Load sample files from data/icici/
+- Generate and test parser code up to 3 attempts
+- Write the parser code to custom_parsers/icici_parser.py
+-	Use a fallback parser if needed
 
 
 
-Contributing
+### Contributing
 
 Contributions and improvements are welcome! Feel free to open issues or pull requests.
 
@@ -48,29 +51,7 @@ Contributions and improvements are welcome! Feel free to open issues or pull req
 
 
 
-Set Groq API key environment variable:
 
-For Linux/macOS:
-
-export GROQ_API_KEY="your_api_key_here"
-
-Running the Agent
-
-Clone this repository and run the agent for ICICI bank:
-python agent.py --target icici
-
-The agent will:
-
-⦁	Load sample files from data/icici/
-⦁	Generate and test parser code up to 3 attempts
-⦁	Write the parser code to custom_parsers/icici_parser.py
-⦁	Use a fallback parser if needed
-
-
-
-Contributing
-
-Contributions and improvements are welcome! Feel free to open issues or pull requests.
 
 
 
