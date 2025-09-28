@@ -15,29 +15,32 @@ This project contains an autonomous Python agent designed to generate a custom p
 ## Getting Started
 
 ### Prerequisites
-
-- Python 3.7+ installed
-
+```bash
+ Python 3.7+ installed
+```
 ### Installation
 
-- Install required Python packages:
+ Install required Python packages:
+ ```bash
 pip install -r requirements.txt
-
+```
 ## Set Groq API key environment variable:
 
 - For Linux/macOS:
-
+```bash
 export GROQ_API_KEY="your_api_key_here"
-
-  ## (or use)
-  $env:GROQ_API_KEY="your_real_key_here"
-
+```
+   ## or use
+```bash
+$env:GROQ_API_KEY="your_real_key_here"
+```
 
 ## Running the Agent
 
 Clone this repository and run the agent for ICICI bank:
-- python agent.py --target icici
-
+```bash
+ python agent.py --target icici
+```
 ## The agent will:
 
 - Load sample files from data/icici/
