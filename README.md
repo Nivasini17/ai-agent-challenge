@@ -29,6 +29,10 @@ pip install -r requirements.txt
 
 export GROQ_API_KEY="your_api_key_here"
 
+  ## (or use)
+  $env:GROQ_API_KEY="your_real_key_here"
+
+
 ## Running the Agent
 
 Clone this repository and run the agent for ICICI bank:
